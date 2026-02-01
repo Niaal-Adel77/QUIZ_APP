@@ -1,16 +1,32 @@
-# untitled23
+# Quiz App (Flutter + Supabase)
 
-A new Flutter project.
+A simple quiz application built with Flutter and Supabase.
 
-## Getting Started
+## Features
+- User authentication (Admin / Student)
+- Admin can create questions
+- Students can answer questions
+- Answers are stored in Supabase
+- Admin can view students statistics
 
-This project is a starting point for a Flutter application.
+## Technologies
+- Flutter
+- GetX
+- Supabase (Auth + Database)
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+lib/
+- controllers/
+- models/
+- views/
+- main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run
+1. Clone the repository
+2. Run:
+   flutter pub get
+3. Run:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Niaal Adel
